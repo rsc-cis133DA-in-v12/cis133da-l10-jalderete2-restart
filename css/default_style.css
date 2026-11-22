@@ -3,6 +3,7 @@ Author: jalderete2
 Course: CIS133DA - Section 27487
 Lesson: 10
 **/
+/* Desktop styles apply to screens 901px and wider. */
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
