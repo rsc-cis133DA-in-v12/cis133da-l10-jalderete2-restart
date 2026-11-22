@@ -1,7 +1,7 @@
-/** 
-    Author: 
-    Course: 
-    Lesson: 
+/**
+Author: jalderete2
+Course: CIS133DA - Section 27487
+Lesson: 10
 **/
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -81,6 +81,45 @@ main {
     display: block;
     margin: 0 auto;
 }
+/* Lesson 10 - Services Cards */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.card {
+    width: calc(50% - 8px);
+    background-color: white;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.card img {
+    float: left;
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right: 5px;
+}
+
+.card h2 {
+    margin: 0;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.card p {
+    margin: 0;
+    padding: 5px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
 
 /* Footer Styles */
 footer {
